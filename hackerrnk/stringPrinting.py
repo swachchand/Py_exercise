@@ -8,15 +8,15 @@ to N-1, print its even-indexed and odd-indexed characters
 
 def even_bits(str1):
     result = ""  
-    for i in range(len(str)):
+    for i in range(len(str1)):
         if i % 2 == 0:
-            result = result + str[i]
+            result = result + str1[i]
     return result
 def odd_bits(str1):
     result = ""  
     for i in range(len(str1)):
         if i % 2 == 1:
-            result = result + str[i]
+            result = result + str1[i]
     return result
 
 ip_lst = [] # input list that contains all input strings
