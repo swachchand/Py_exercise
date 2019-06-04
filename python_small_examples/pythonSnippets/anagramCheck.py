@@ -1,5 +1,5 @@
 '''
-CHeck if the strings are Anagrams of each other
+Check if the strings are Anagrams of each other
 '''
 
 def anagram_chk(s1, s2):
