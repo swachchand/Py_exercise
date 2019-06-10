@@ -10,7 +10,6 @@ iterate through the full file
 create a list to store all the contents in the file by eliminating  new line \n using extend clause
 once all variables are done iterating, print the whole list
 
-
 '''
 
 import string
@@ -20,8 +19,11 @@ from pprint import pprint
 
 
 def countCharacters(letters):
-    ##declare a dictionary to store values
-    charStorage ={}
+    ## Dictionary can be declared 2 ways:
+    #charStorage ={}
+    #OR 
+    #declare a dictionary to store values as follows
+    charStorage = dict()
     
     for n in letters:
         keys = charStorage.keys()
