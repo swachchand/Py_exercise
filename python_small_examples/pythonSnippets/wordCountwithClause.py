@@ -49,7 +49,7 @@ with open('wikihow.txt', 'r') as fh:
     ## Use this if you want to count occurrences of characters in the line        
     #listChars.extend(ch.strip())
     
-    ## Use this if you want to use to count words in a line
+    ## Use STRIP if you want to use to count words in a line
     ##USe STRIP to Return a copy of the string with the leading and trailing characters removed.
         listChars.extend(ch.split())
     
