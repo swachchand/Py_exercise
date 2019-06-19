@@ -9,7 +9,8 @@ Make a function with a dictionary to iterate.
 
 Open a file in read mode
 iterate through the full file
-create a list to store all the contents in the file by eliminating  new line \n using extend clause
+create a list to store all the contents in 
+the file by eliminating  new line \n using extend clause
 once all variables are done iterating, print the whole list
 
 
@@ -27,8 +28,10 @@ def countCharacters(letters):
     
     for n in letters:
         keys = charStorage.keys()
+        #if the key is present for tht word add plus 1
         if n in keys:
             charStorage[n]+=1
+        #if key not present in the word add key as 1
         else:
             charStorage[n]=1
     return charStorage
