@@ -1,5 +1,14 @@
 ## This file is a scratchpad can be used and changed as per practice codes
 import re
+
+'''
+reptn = re.compile(r'((\d\d\d-)?\d\d\d-\d\d\d\d(,)?){,}')
+ph=input('Enter numbers:')
+
+cmp =reptn.search(ph)
+print(cmp.group())
+'''
+
 print('Testing all patterns of REGEX expression')
 
 rgx = re.compile(r'\d\d\d-\d\d\d-\d\d\d')
