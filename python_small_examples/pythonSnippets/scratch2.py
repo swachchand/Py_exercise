@@ -10,7 +10,8 @@ get text off the keyboards
 Extract email phones from text
 copy email phone to clipboard
 '''
-import re, pyperclip
+import re
+import pyperclip
 
 
 ## create regex for phone numbers:
