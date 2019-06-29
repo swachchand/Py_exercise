@@ -1,6 +1,7 @@
 '''
 Print entire character stream in reverse 
-without ---> List Comprehension Technique (simple traditional for loop)
+without ---> List Comprehension Technique 
+(simple traditional for loop)
 example:
 hello world
 olleh dlrow
