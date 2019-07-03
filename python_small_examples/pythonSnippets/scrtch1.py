@@ -18,7 +18,6 @@ import re
 and $ is used to check if it occurs at the end of the string
 e.f.(r'^Hppp$')
 . character (dot/period) stands for any character except a new line
-
 '''
 inpt = 'Hello, Robocop is a dodo, trust me I AM NOT an engineer,11 people sss, 332 peoplr are ,23232 mine eee, 44 times www, 1 peart or, 33 frits'
 

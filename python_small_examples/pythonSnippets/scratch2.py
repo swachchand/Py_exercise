@@ -1,5 +1,4 @@
 ### email and phone number scrapper from a dictionary
-
 #! python3
 '''
 Create regex for phones
